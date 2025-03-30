@@ -1,0 +1,46 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Loại bỏ kiểu mặc định của danh sách */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Loại bỏ gạch chân của liên kết */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Định dạng lại hình ảnh để không vượt quá phần tử chứa nó */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset thẻ button */
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Reset input và textarea */
+input,
+textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
