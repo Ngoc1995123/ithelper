@@ -7,12 +7,16 @@
     <title>IT Experts</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
     <header class="it-helper-header">
         <div class="container">
-            <h2 class="logo">IT Experts</h2>
+            <a href="#">
+                <h2 class="logo">IT Experts</h2>
+            </a>
             <a style="display: none;" href="tel:1-888-844-1608" class="call-button">Call Us: 1-888-844-1608</a>
         </div>
     </header>
@@ -24,7 +28,7 @@
         </div>
     </section>
 
-    <section class="it-support">
+    <section class="it-support" id="it-support">
         <div class="support-info">
             <h2>Expert IT Support - Anytime, Anywhere</h2>
             <p>We provide professional IT solutions to keep your systems running smoothly, ensuring minimal downtime and
@@ -42,7 +46,7 @@
             <h3>Get Your Free IT Consultation</h3>
             <p>Sign up now for expert IT assistance tailored to your business needs.</p>
 
-            <form>
+            <form action="success.html">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea placeholder="Briefly describe your issue"></textarea>
@@ -115,7 +119,7 @@
     </section>
 
 
-    <section class="pricing-section">
+    <section class="pricing-section" id="pricing-section">
         <h2>Our Pricing</h2>
         <div class="pricing-container">
             <!-- Basic Plan -->
@@ -281,9 +285,9 @@
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#it-support">Services</a></li>
+                    <li><a href="#pricing-section">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
